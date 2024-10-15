@@ -1,14 +1,19 @@
 programa {
   funcao inicio() {
 
-    inteiro n1, n2, resultado
+    inteiro n1, n2, n3
+    real media
     
     escreva("Digite um numero \n")
     leia (n1)
-    escreva("Digite outro numero \n")
+    escreva("Digite um numero \n")
     leia (n2)
-    resultado=n1+n2
-    escreva("O resultado da soma do numero ",n1, " com o numero ",n2," é = ",resultado)
+    escreva("Digite um numero \n")
+    leia (n3)
+
+    media=(n1+n2+n3)/3
+
+    escreva ("A media desses numeros é igual a: ", media)
 
   }
 }
