@@ -1,16 +1,16 @@
 programa {
   funcao inicio() {
 
-    real n1
     
-    escreva("Digite um numero \n")
-    leia (n1)
-    se (n1%2 == 0) {
-    escreva ("O numero ",n1, " é par")
-  }
-    senao {
-    escreva ("O numero ",n1, " é impar")
-    }
+    real r, area
+    
+    escreva("Digite o valor do raio: \n")
+    leia (r)
+   
+   area=3.14*r*r
+
+   
+    escreva ("A área do Círculo é: ", area)
 
   }
 }
